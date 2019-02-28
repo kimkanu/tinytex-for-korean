@@ -7,12 +7,20 @@
 
 ## 설치하기
 
+### Unix-based (Linux, macOS)
+
 ```bash
 wget -qO- "https://yihui.name/gh/tinytex/tools/install-unx.sh" | sh   # Linux
-curl -sL "https://yihui.name/gh/tinytex/tools/install-unx.sh" | sh    # maxOS
+curl -sL "https://yihui.name/gh/tinytex/tools/install-unx.sh" | sh    # macOS
 ```
 
-Windows의 경우, PowerShell 3.0 이상이 설치되어 있어야 합니다. (Windows 10에는 자동적으로 설치됩니다.) [**링크**](https://yihui.name/gh/tinytex/tools/install-windows.bat)를 오른쪽 클릭한 후 다른 이름으로 저장을 하고 실행해 주세요.
+
+### Windows (PowerShell 3.0+)
+
+Windows의 경우, PowerShell 3.0 이상이 설치되어 있어야 합니다. (Windows 10에는 자동적으로 설치되어 있습니다.)
+
+[**링크**](https://yihui.name/gh/tinytex/tools/install-windows.bat)를 오른쪽 클릭한 후 다른 이름으로 저장을 하고 실행해 주세요.
+
 
 
 ## 필요한 패키지 설치하기
@@ -30,10 +38,12 @@ tlmgr install setspace hyperref cleveref pgf preview xcolor enumitem listings tc
 tlmgr update --all
 ```
 
-이후 필요한 패키지가 설치되지 않아 
+이후 필요한 패키지가 설치되지 않아
+
 ```text
 ! LaTeX Error: File `(sty-name).sty' not found.
 ```
+
 에러가 발생하면, 다음 명령어를 통해 패키지를 설치해 주세요. (아래의 (sty-name)을 위에 나온 .sty 파일의 이름으로 바꿔주세요.)
 
 ```bash
