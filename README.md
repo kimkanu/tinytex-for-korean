@@ -2,7 +2,7 @@
 
 ## TinyTeX이란?
 
-'''TinyTeX'''은 [谢益辉](https://yihui.name/)에 의해 개발된 TeX Live 기반의 LaTeX 배포판으로, 기존의 TeX Live (최소 용량이 Unix 기반에서 150 MB, Windows에서 220MB)에 비해 용량이 줄었다는 장점이 있습니다. 또한, [R 패키지](https://yihui.name/tinytex/r/)로서 쓰임을 목적으로 하였기 때문에 R과 같이 쓰기에도 편리합니다.
+**TinyTeX**은 [谢益辉](https://yihui.name/)에 의해 개발된 TeX Live 기반의 LaTeX 배포판으로, 기존의 TeX Live (최소 용량이 Unix 기반에서 150 MB, Windows에서 220MB)에 비해 용량이 줄었다는 장점이 있습니다. 또한, [R 패키지](https://yihui.name/tinytex/r/)로서 쓰임을 목적으로 하였기 때문에 R과 같이 쓰기에도 편리합니다.
 
 
 ## 설치하기
