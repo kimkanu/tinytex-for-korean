@@ -29,11 +29,8 @@ Windows의 경우, PowerShell 3.0 이상이 설치되어 있어야 합니다. (W
 # install gpg
 tlmgr --repository http://www.preining.info/tlgpg/ install tlgpg
 
-# mandatory packages
-tlmgr install cjk-ko cjk nanumtype1 xecjk luatexko lua-visual-debug cfr-lm nfssext-cfr unfonts-core unfonts-extra xetexko luatexko
-
-# optional but important packages
-tlmgr install setspace hyperref cleveref pgf preview xcolor enumitem listings tcolorbox environ trimspaces
+# some packages
+tlmgr install adjustbox amscls amsfonts amsmath babel beamer biblatex bibtex booktabs caption changepage cjk-ko cm collectbox dantelogo dehyph dtk dvipdfmx dvips ec enumitem environ etex etoolbox euenc expex fancyhdr fancyvrb float fontspec forloop framed fvextra geometry glyphlist graphics graphics-cfg graphics-def gsftopk helvetic hyperref hyphen-base ifluatex ifmtarg ifplatform iftex ifxetex inconsolata jknapltx knuth-lib kotex-plain kotex-utf kpathsea l3kernel l3packages latex latex-bin latex-fonts latexconfig latexmk lineno listings lm logreq lua-visual-debug luainputenc lualibs luaotfload luatex luatexko makeindex mathspec mathtools metafont mfware ms nanumtype1 natbib oberdiek pdftex pgf pgfplots plain relsize rsfs scheme-infraonly setspace tcolorbox tetex tex tex-ini-files texlive.infra tikz-cd times tipa titlesec titling tools translator trimspaces ulem unicode-data upquote url wrapfig xcolor xetex xetexconfig xifthen xkeyval xstring xunicode zapfding
 
 tlmgr update --all
 ```
